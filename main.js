@@ -124,7 +124,7 @@ function buildProfile(user) {
     let dp = `
               <img src="${
                 response.data.url
-              }" lass="thumbnail rounded-circle" width="${
+              }" class="thumbnail rounded-circle" width="${
       response.data.width
     }" height="${response.data.height}">
         

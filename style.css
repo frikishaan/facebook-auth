@@ -1,0 +1,26 @@
+/* Custom style sheet for AuthApp */
+
+body {
+  background-color: white;
+}
+h3 {
+  color: black;
+}
+#profile,
+#fb-logout,
+#heading {
+  display: none;
+}
+#fb-login {
+  display: block;
+}
+#images {
+  display: block;
+}
+.pic-card {
+  max-width: 330px !important;
+  max-height: 320px !important;
+  min-width: 280px !important;
+  overflow: hidden !important;
+  margin: 2rem 0.5rem !important;
+}

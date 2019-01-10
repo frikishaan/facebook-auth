@@ -52,7 +52,6 @@ function checkLoginState() {
     -> Hides and show the stuff according to the logged in and logged out status
 
     Takes one argument type:boolean
-
 */
 function setElements(isLoggedIn) {
   if (isLoggedIn) {
@@ -81,7 +80,9 @@ function logout() {
 
 /*  Functions for the Facebook Graph API */
 function testAPI() {
-  // Get all the fields specified in the fields parameter
+  /* Get all the fields specified in the fields parameter add all the fields separated by ',' 
+    NOTE: Don't forget to add the permissions from the dashboard of developers.facebook.com inorder to      
+  */
   FB.api("/me?fields=name,email,birthday,location,posts,photos,link", function(
     response
   ) {

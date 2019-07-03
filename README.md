@@ -22,7 +22,7 @@ This is an exampe of how to use **Facebook login** and the **Facebook Graph API*
 
 <h3>References</h3>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=gXux8b3wcYw&t=6s">Traversy Media</a> (from where author learned to integrate the facebook API)</li>
+<li><a href="https://www.youtube.com/watch?v=gXux8b3wcYw">Traversy Media</a> (from where I learned to integrate the facebook API)</li>
 <li><a href="https://developers.facebook.com/docs/facebook-login/web/">Facebook documentation for Login</a></li> 
 <li><a href="https://developers.facebook.com/docs/graph-api/using-graph-api/">Documentation for using Graph API</a></li> 
 </ul>
